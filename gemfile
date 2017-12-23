@@ -1,3 +1,2 @@
 source :rubygems
-require 'prime'
 require 'rest-client'

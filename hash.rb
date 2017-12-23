@@ -1,10 +1,10 @@
 def hash_p(hash, string = 'even')
   case string
     when 'prime'
-      result = hash.find_all{ |key, value| Prime.prime?(value)}
+      hash.find_all{ |key, value| Prime.prime?(value)}
     when 'odd'
-      result = hash.find_all{ |key, value| value % 2 == 1}
+      hash.find_all{ |key, value| value.odd?}
     when 'even'
-      result = hash.find_all{ |key, value| value % 2 == 0}
+      hash.find_all{ |key, value| value.even?}
   end
 end
