@@ -1,4 +1,3 @@
-require 'prime'
 def hash_p(hash, string = 'even')
   case string
     when 'prime'
