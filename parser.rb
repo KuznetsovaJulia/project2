@@ -1,7 +1,7 @@
 require 'rest-client'
 require 'json'
-CRYPTO_CURRENCIES = %w(btc ltc eth dash xrp)
-CURRENCIES = %w(usd eur gbp)
+CRYPTO_CURRENCIES = %w(btc ltc eth dash xrp).freeze
+CURRENCIES = %w(usd eur gbp).freeze
 
 
 
